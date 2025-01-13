@@ -24,8 +24,7 @@ class Student:
                 f 'Фамилия: {self.surname}\n'
                 f"Средняя оценка за домашние задания: {avg_grade:.1f}\n"
                 f"Курсы в процессе изучения: {courses_in_progress}\n"
-                f"Завершенные курсы: {finished_courses}")
-
+                f"Завершенные курсы: {finished_courses}"
 
     def _calculate_avg_grade(self):
         if not self.grades:
